@@ -15,13 +15,10 @@ $(call inherit-product, device/nothing/Spacewar/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Axion vars
-AXION_CAMERA_REAR_INFO := 50,50
-AXION_CAMERA_FRONT_INFO := 16
-AXION_MAINTAINER := Aditya
-AXION_PROCESSOR := Snapdragon_778G+
-BYPASS_CHARGE_SUPPORTED := true
-TARGET_ENABLE_BLUR := true
+
+#Boot Animation
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_Spacewar
