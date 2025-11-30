@@ -15,6 +15,10 @@ $(call inherit-product, device/nothing/Spacewar/device.mk)
 # Inherit some common Clover stuff.
 $(call inherit-product, vendor/clover/config/common_full_phone.mk)
 
+# Clover Stuff
+CLOVER_MAINTAINER := nyxalune
+CLOVER_BUILDTYPE := OFFICIAL
+
 #Boot Animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
