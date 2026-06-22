@@ -264,3 +264,8 @@ wifi.aware.interface=wifi-aware0
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Biometrics 
+ro.vendor.fingerprint.type=udfps_optical
+ro.vendor.fingerprint.sensor_location=540|2170|98
+vendor.goodix.locked=0
